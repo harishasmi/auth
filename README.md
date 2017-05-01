@@ -1,0 +1,1 @@
+This project provides the sample code on how to use the authntication model of passportjs in a simple application.
