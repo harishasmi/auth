@@ -1,0 +1,13 @@
+<% if (signupError && signupError.length > 0) { %>
+    <div class="alert alert-danger"><%= signupError %></div>
+<% } %>
+
+
+<form method="post" action="/signup">
+    <input type="email" name="email" placeholder="Enter your Email">    
+    <input type="password" name="password" placeholder="Enter your passowrd">
+    <div>
+        <input type="text" name="name" placeholder="Enter your name">
+    </div>
+    <input type="submit">
+</form>

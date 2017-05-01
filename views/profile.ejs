@@ -1,0 +1,15 @@
+<% if (welcomeFlash) { %>
+    <div class="alert alert-danger"><%= welcomeFlash %></div>
+<% } %>
+
+
+<h2>
+    <%= user.fullname %>    
+</h2>
+<p>
+    <%= user.email %>
+</p>
+
+
+
+<a href="/logout">Log out</a>

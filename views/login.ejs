@@ -1,0 +1,10 @@
+<% if (loginError) { %>
+    <div class="alert alert-danger"><%= loginError %></div>
+<% } %>
+
+<form method="post" action="/login">
+    <input type="email" name="email" placeholder="Enter your Email">    
+    <input type="password" name="password" placeholder="Enter your passowrd">
+    <!--<input type="text" name="name" placeholder="Enter your name">-->
+    <input type="submit">
+</form>
